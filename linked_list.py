@@ -1,4 +1,3 @@
-from turtle import position
 
 
 class Node:
@@ -8,6 +7,9 @@ class Node:
     Attributes:
         data: Data stored in node
         next_node: Reference to next node in linked list
+
+    Takes O(n log n) time
+    Takes O(n) space
     """
 
     def __init__(self, data, next_node = None):

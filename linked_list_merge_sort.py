@@ -8,8 +8,7 @@ def merge_sort(linked_list):
 
     Returns a sorted linked list
 
-    Takes O(n log n) time
-    Takes O(n) space
+    Takes O(kn log n) time
     """
     if linked_list.size() == 1:
         return linked_list
